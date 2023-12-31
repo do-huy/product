@@ -1,0 +1,19 @@
+{
+    "Dashboard": true,
+    "User": true,
+    "Category": true,
+    "SubCategory": true,
+    "Product": true,
+    "Seller": true,
+    "Carousel": true,
+    "Home": true,
+    "Cart": true,
+    "Voucher": true,
+    "Bill": true,
+    "CheckOut": true,
+    "Province": true,
+    "District": true,
+    "Ward": true,
+    "Address": true,
+    "Content": true
+}

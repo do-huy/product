@@ -1,0 +1,96 @@
+.ht-setting-list li .logout{
+    padding: 0 10px;
+}
+.ht-setting-list li:hover .logout{
+   color: #fff;
+}
+.li-blog-archive .pd-profile{
+    margin: 0 0 0 10px;
+}
+.li-blog-single-item .title-form-profile{
+    color: #242424;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 52px;
+}
+.li-blog-single-item .title-form-profile::before {
+    width: 55px;
+    height: 2px;
+    bottom: -25px;
+    left: 0;
+    background-color: #fed700;
+    content: "";
+    position: absolute;
+}
+.btn-sene {
+    padding: 0.3rem;
+    display: inline-block;
+    background: #e5345b;
+    border: 1px solid #e5345b;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 650ms;
+}
+.btn-sene:hover {
+    background-color: rgb(68, 181, 255) !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+.update-but-profile{
+    color: rgb(68, 181, 255);
+}
+.li-blog-single-item .des-address {
+    border: 1px dashed #212529;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+.li-blog-single-item .div-add-address {
+    border: 1px dashed #212529;
+    text-align: center;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+.li-blog-single-item .div-add-address .add-address {
+    padding: 8px;
+    color: rgb(68, 181, 255);
+}
+.li-blog-single-item .div-add-address .add-address:hover {
+    color: #e5345b;
+}
+
+.des-address .button-address {
+    display: flex;
+}
+.des-address .button-address .btn-del-address {
+    margin: 0 7px 0 0;
+    padding: 0.2rem;
+    display: inline-block;
+    background: #e5345b ;
+    border: 1px solid #e5345b;
+    color: #fff ;
+    border-radius: 4px;
+}
+
+.des-address .button-address .btn-edit-address {
+    padding: 0.2rem;
+    display: inline-block;
+    background: rgb(68, 181, 255) ;
+    border: 1px solid rgb(68, 181, 255);
+    color: #fff ;
+    border-radius: 4px;
+}
+input.check-default {
+    height: 15px;
+    width: 15px;
+    transform: scale(1.4);
+}
+span.custom-default {
+    margin: 0px 0px 0px 7px;
+}
+.des-address .is-default-address {
+    color: rgb(38, 188, 78);
+    font-size: 15px;
+}

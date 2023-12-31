@@ -1,0 +1,25 @@
+.logout-client {
+    padding: 0 10px !important;
+    font-size: 12px !important;
+}
+.title-sene h3 {
+    color: #242424;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.title-sene h3:after {
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 100%;
+    background: #e5345b;
+    content: "";
+}
+.text-danger {
+    margin-bottom: 0;
+}

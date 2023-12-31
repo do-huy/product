@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/carousel",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Carousel\\": "",
+            "Modules\\Carousel\\App\\": "app/",
+            "Modules\\Carousel\\Database\\Factories\\": "database/factories/",
+            "Modules\\Carousel\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Carousel\\Tests\\": "tests/"
+        }
+    }
+}

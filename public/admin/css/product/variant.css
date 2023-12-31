@@ -1,0 +1,224 @@
+.hidden {
+    display: none;
+}
+.color-red {
+    color: red;
+}
+.variant-group {
+    background-color: beige !important;
+    position: relative;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+}
+
+.variant-item {
+    background: inherit;
+}
+
+.card.variant-group {
+    padding: 0px 70px 0px 70px;
+}
+
+.font-size-inherit {
+    font-size: inherit;
+}
+
+.remove-variant-item {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 25px;
+    color: red;
+    border-radius: 50%;
+    border: none;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.product-item-table.table-bordered thead {
+    background: beige;
+}
+
+.product-item-table.table-bordered thead td,
+.product-item-table.table-bordered thead th {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.product-item-table.table-bordered tbody tr:last-child td {
+    border: 1px solid #dee2e6;
+}
+
+.product-item-table.table-bordered th,
+.product-item-table.table-bordered td {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.product-item-table.table-bordered tbody .variant-option-cell {
+    vertical-align: middle;
+}
+
+.product-item-table.table-bordered tbody .variant-option-cell div {
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #dee2e6;
+    position: relative;
+    cursor: pointer;
+}
+
+.product-item-table.table-bordered tbody .variant-option-cell div img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.product-item-table.table-bordered tbody .variant-option-cell div .remove-image-icon {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #bbb;
+    opacity: 50%;
+}
+
+.product-item-table.table-bordered tbody .variant-option-cell div.has-image:hover .remove-image-icon {
+    display: block;
+}
+
+.variant-option-box .col-auto:last-child .input-group-append {
+    display: none;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.table>:not(caption)>*>* {
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+.flex-image-preview {
+    display: flex;
+}
+
+.imagePreview {
+    /* width: 100%; */
+    width: 100px;
+    /* height: 180px; */
+    height: 100px;
+    background-position: center center;
+  background:url(../../../admin/images/img-pre.png);
+  background-color:#fff;
+    background-size: cover;
+  background-repeat:no-repeat;
+    display: inline-block;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+  box-shadow:0px -3px 6px 2px rgba(0,0,0,0.2);
+}
+.btn-primary
+{
+  display:block;
+  border-radius:0px;
+  box-shadow:0px 4px 6px 2px rgba(0,0,0,0.2);
+  /* margin-top:-5px; */
+}
+.imgUp
+{
+    width: 100px;
+  /* margin-bottom:15px; */
+  margin: 0 10px 0px 0px;
+}
+.del
+{
+  position:absolute;
+  /* top:0px;
+  right:15px; */
+  top: 197px;
+  width:30px;
+  height:30px;
+  text-align:center;
+  line-height:30px;
+  background-color:rgba(255,255,255,0.6);
+  cursor:pointer; border-radius: 7px;
+}
+.imgAdd
+{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background-color:#4bd7ef;
+  color:#fff;
+  box-shadow:0px 0px 2px 1px rgba(0,0,0,0.2);
+  text-align:center;
+  line-height:30px;
+  margin-top:0px;
+  cursor:pointer;
+  font-size:15px;
+  /* margin: 0 0 0 10px; */
+}
+
+.edit-src-pro {
+    margin-top: 15px;
+    width: 100px;
+    border-radius: 7px;
+}
+
+.flex-srcs {
+    display: flex;
+    margin: 0 0 15px 0;
+}
+.flex-srcs .img-srcs-pro {
+    width: 100px;
+    margin: 0 10px 0 0px;
+    border-radius: 7px;
+}
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: -5px;
+    margin-left: -5px; */
+}
+img.product-item-image {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 0 !important;
+}
+.input-group-append, .input-group-prepend {
+    color: #c9c8c8;
+    width: auto;
+    border: none;
+}
+.input-group-append {
+    margin-left: -1px;
+}
+
+.input-group-text {
+    height: 100%;
+}
+.form-row>.col, .form-row>[class*=col-] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.flex-srcs .img-srcs-pro {
+    width: 100px;
+    margin: 0 10px 0 0px;
+    border-radius: 7px;
+}

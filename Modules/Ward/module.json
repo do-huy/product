@@ -1,0 +1,11 @@
+{
+    "name": "Ward",
+    "alias": "ward",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Ward\\app\\Providers\\WardServiceProvider"
+    ],
+    "files": []
+}

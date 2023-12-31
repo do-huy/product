@@ -1,0 +1,36 @@
+.display-bill{
+    /* margin-top: 100px; */
+    margin-bottom: 10px;
+}
+.grid-dis-bill{
+    position: relative;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 20% 1fr;
+    font-size: 14px;
+    /* background: #f2f2f2; */
+    margin-top: 5px;
+    /* padding: 10px; */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.go-btn .btn-success-display-bill {
+    border-radius: 7px;
+    color: #fff;
+    background: #e5345b;
+    padding: .375rem .75rem;
+    border:none;
+}
+.go-btn .btn-success-display-bill:hover {
+    background: #007bb5;
+}
+@media screen and (max-width: 768px){
+    .grid-dis-bill {
+        grid-template-columns: 30% 1fr;
+    }
+}
+@media screen and (max-width: 575px){
+    .grid-dis-bill {
+        grid-template-columns:1fr;
+    }
+}
